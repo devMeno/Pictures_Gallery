@@ -1,0 +1,60 @@
+img{
+     width: 98%;
+     margin: 10px auto;
+     border: 1px solid rgb(231, 226, 226);
+}
+
+.container-fluid{
+     margin: auto;
+     justify-content: center;
+}
+
+form{
+     display: grid;
+     grid-template-columns: 1fr;
+     width: 40%;
+     margin: auto;
+}
+
+.col-sm-3{
+     border: none;
+     border-radius: 10px;
+     box-shadow: 1px 1px 8px 3px rgba(4,4,4,0.51);
+     margin: 10px;
+     height: auto;
+}
+
+p{
+     margin-top: -10px;
+}
+
+.linear{
+     display: flex;
+     margin: auto;
+     
+}
+
+.gauche{
+     width: 30%;
+}
+
+.droite{
+     width: 30%;
+}
+
+input{
+     border: 1px solid gray;
+     border-radius: 5px;
+     margin: 5px;
+}
+
+h1{
+     margin: 15px auto;
+     text-align: center;     
+}
+
+@media screen and (max-width:800px) {
+    .container-fluid{
+          margin: 10px 0;
+    } 
+}
